@@ -16,12 +16,13 @@ Uygulama, **Vikisözlük** ve **Kaggle** kaynaklarını bir araya getirerek kull
 ---
 
 ## 🎬 Tanıtım Videosu
-<video src="https://github.com/minecaneer/hukuk-arama-asistani/raw/main/assets/hukuk_asistani.mov" controls width="700"></video>
+🎥 [Tanıtım Videosunu İzle](https://github.com/minecaneer/hukuk-arama-asistani/raw/main/assets/hukuk_asistani.mov)
 
 ---
 
 ## 🖼️ Arayüz Görseli
-![Uygulama Ekran Görüntüsü](assets/hukuk-asistani.png)
+![Uygulama Ekran Görüntüsü](https://github.com/minecaneer/hukuk-arama-asistani/raw/main/assets/hukuk-asistani.png)
+
 
 ---
 
