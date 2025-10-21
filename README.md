@@ -76,25 +76,28 @@ Uygulama, **Vikisözlük** ve **Kaggle** kaynaklarını bir araya getirerek, kul
 
 ## ⚙️ Kurulum ve Çalıştırma Adımları
 
-### 1  **Sanal ortam oluştur**
+### 1  **Depoyu klonla**
 ```bash
 git clone https://github.com/minecaneer/hukuk-arama-asistani.git
 cd hukuk-arama-asistani
-
+```
 
 ### 2️  **Sanal ortam oluştur**
 ```bash
 python -m venv venv
 source venv/bin/activate      # Linux/Mac
 venv\Scripts\activate         # Windows
-
+```
 
 
 ### 3 **Gerekli kütüphaneleri yükle**
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 4️ **FAISS verisini oluştur (ilk kullanımda)**
+```bash
 Bu adım Colab üzerinde zaten gerçekleştirilmiştir.  
 Eğer FAISS dosyaları (`faiss_index.bin` ve `texts.pkl`) bulunmuyorsa,  
 Colab’deki "veri hazırlama" kodunu yeniden çalıştırarak oluşturabilirsiniz.
+```
