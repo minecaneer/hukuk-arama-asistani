@@ -101,3 +101,29 @@ Bu adım Colab üzerinde zaten gerçekleştirilmiştir.
 Eğer FAISS dosyaları (`faiss_index.bin` ve `texts.pkl`) bulunmuyorsa,  
 Colab’deki "veri hazırlama" kodunu yeniden çalıştırarak oluşturabilirsiniz.
 ```
+
+
+
+## İletişim
+
+Projeyle ilgili herhangi bir sorunuz varsa lütfen benimle iletişime geçin.
+
+- **E-mail:** [minecaner.1995@gmail.com](mailto:minecaner.1995@gmail.com)
+- **GitHub:** [github.com/mminecaneer](https://github.com/minecaneer)
+- **LinkedIn:** [linkedin.com/in/minecaner](https://linkedin.com/in/minecaner)
+
+
+## Proje Yapısı
+
+```
+hukuk-arama-asistani/
+├── app.py                        
+├── faiss_index.bin        
+├── texts.pkl              
+├── requirements.txt
+├── README.md               
+└── assets/
+    └── screenshot_home.png 
+            
+```
+
