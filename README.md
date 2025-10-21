@@ -32,7 +32,8 @@ Uygulama, **Vikisözlük** ve **Kaggle** kaynaklarını bir araya getirerek, kul
 
 ## 🌐 Canlı Demo
 
-➡️ [**Hukuk Arama Asistanı (Ngrok Demo)**](https://noncensored-synonymously-joni.ngrok-free.dev)  
+➡️ [🔗 Hukuk Arama Asistanı’nı Deneyin](https://hukuk-arama-asistani-2kguurbd6rnc8mgzpwjrhw.streamlit.app/)
+
 
 ---
 
