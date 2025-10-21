@@ -3,7 +3,25 @@
 **Hukuk Arama Asistanı**, Türk hukuk terimleri ve yargı kavramları üzerinde **anlam tabanlı (semantik)** arama yapabilen yapay zekâ destekli bir web uygulamasıdır.  
 Retrieval Augmented Generation (RAG) mimarisiyle geliştirilmiştir ve kullanıcıların hukukla ilgili terimleri, kavramları veya soruları Türkçe doğal dilde sorgulayarak **doğru ve hızlı yanıtlar** almasını sağlar.  
 
-Uygulama, **Vikisözlük** ve **Kaggle** kaynaklarını bir araya getirerek, kullanıcıya çift kaynaktan bilgi sunar.
+Uygulama, **Vikisözlük** ve **Kaggle** kaynaklarını bir araya getirerek kullanıcıya çift kaynaktan bilgi sunar.
+
+---
+
+## 🌐 Canlı Demo
+🎯 [🔗 Hukuk Arama Asistanı’nı Deneyin](https://hukuk-arama-asistani-2kguurbd6rnc8mgzpwjrhw.streamlit.app/)
+
+> Uygulama Streamlit Cloud üzerinde aktif olarak çalışmaktadır.  
+> Herhangi bir kurulum yapmadan doğrudan tarayıcı üzerinden erişebilirsiniz.
+
+---
+
+## 🎬 Tanıtım Videosu
+<video src="https://github.com/minecaneer/hukuk-arama-asistani/raw/main/assets/hukuk_asistani.mov" controls width="700"></video>
+
+---
+
+## 🖼️ Arayüz Görseli
+![Uygulama Ekran Görüntüsü](assets/hukuk-asistani.png)
 
 ---
 
@@ -16,7 +34,7 @@ Uygulama, **Vikisözlük** ve **Kaggle** kaynaklarını bir araya getirerek, kul
    - Vikisözlük’ten: Temel hukuk terimleri (örnek: *mülkiyet, nafaka, delil, tazminat...*)
 
 2. **Metin Birleştirme**  
-   - Soru–cevap blokları ve terim tanımları etiketlenip birleştirilir
+   - Soru–cevap blokları ve terim tanımları etiketlenip birleştirilir  
 
 3. **Vektörleştirme (Embedding)**  
    - `paraphrase-multilingual-MiniLM-L12-v2` modeliyle metinler embedding’e dönüştürülür  
@@ -30,22 +48,6 @@ Uygulama, **Vikisözlük** ve **Kaggle** kaynaklarını bir araya getirerek, kul
 
 ---
 
-## 🌐 Canlı Demo
-
-➡️ [🔗 Hukuk Arama Asistanı’nı Deneyin](https://hukuk-arama-asistani-2kguurbd6rnc8mgzpwjrhw.streamlit.app/)
-
-
----
-
-## 🗂️ Veri Seti
-
-- **Vikisözlük:** 20’ye yakın temel hukuk terimi  
-- **Kaggle Soru-Cevap:** ~13.700 satır soru–cevap verisi  
-- Her biri tek bir “bilgi bloğu” olarak embedding’e dönüştürülür  
-- **Toplam:** ≈13.700 Q&A + 19 terim tanımı  
-
----
-
 ## ✨ Özellikler ve Kullanım Alanları
 
 - 🔍 **Anlam Tabanlı Arama** – Sadece kelime eşleşmesi değil, anlam benzerliğine göre sonuç döndürür  
@@ -54,11 +56,6 @@ Uygulama, **Vikisözlük** ve **Kaggle** kaynaklarını bir araya getirerek, kul
 - 🌗 **Dark/Light Tema** – Tek tıkla görünüm değiştirilebilir  
 - 🧩 **Çift Veri Kaynağı** – Vikisözlük + Kaggle  
 - 📱 **Responsive Arayüz** – Masaüstü ve mobil cihazlarla uyumlu  
-
-### 🎓 Kullanım Senaryoları
-- Hukuk öğrencileri için terim açıklamaları ve örnek soru–cevap aracı  
-- Avukat ve akademisyenler için hızlı referans kaynağı  
-- Hukuk alanında dil modeli tabanlı arama projelerine örnek uygulama  
 
 ---
 
@@ -69,18 +66,19 @@ Uygulama, **Vikisözlük** ve **Kaggle** kaynaklarını bir araya getirerek, kul
 | **Model** | SentenceTransformers – `paraphrase-multilingual-MiniLM-L12-v2` |
 | **Vektör DB** | FAISS |
 | **Framework** | Streamlit |
-| **Veri Kaynakları** | Kaggle API, Vikisözlük API |
-| **Dil** | Python 3.10 (Google Colab) |
+| **Veri Kaynakları** | Kaggle API, Vikisözlük |
+| **Dil** | Python 3.11 |
 | **Tasarım** | Özel Light/Dark CSS teması |
 
 ---
 
 ## ⚙️ Kurulum ve Çalıştırma Adımları
 
-### 1  **Depoyu klonla**
+### 1️ **Depoyu klonla**
 ```bash
 git clone https://github.com/minecaneer/hukuk-arama-asistani.git
 cd hukuk-arama-asistani
+
 ```
 
 ### 2️  **Sanal ortam oluştur**
@@ -104,7 +102,6 @@ Colab’deki "veri hazırlama" kodunu yeniden çalıştırarak oluşturabilirsin
 ```
 
 
-
 ## İletişim
 
 Projeyle ilgili herhangi bir sorunuz varsa lütfen benimle iletişime geçin.
@@ -114,17 +111,27 @@ Projeyle ilgili herhangi bir sorunuz varsa lütfen benimle iletişime geçin.
 - **LinkedIn:** [linkedin.com/in/minecaner](https://linkedin.com/in/minecaner)
 
 
+| Kaynak         | Açıklama                | Boyut  |
+| :------------- | :---------------------- | :----- |
+| **Vikisözlük** | 20+ temel hukuk terimi  | ~15 KB |
+| **Kaggle Q&A** | 13.700 satır soru–cevap | ~6 MB  |
+| **Toplam**     | ≈13.720 bilgi bloğu     |        |
+
+
+
 ## Proje Yapısı
 
 ```
 hukuk-arama-asistani/
-├── app.py                        
-├── faiss_index.bin        
-├── texts.pkl              
-├── requirements.txt
+├── app.py                  
+├── faiss_index.bin         
+├── texts.pkl               
+├── requirements.txt        
+├── runtime.txt             
 ├── README.md               
 └── assets/
-    └── screenshot_home.png 
-            
+    ├── hukuk-asistani.png  
+    └── hukuk_asistani.mov
 ```
+
 
