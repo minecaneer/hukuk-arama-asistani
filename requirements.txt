@@ -1,0 +1,10 @@
+streamlit
+sentence-transformers
+faiss-cpu
+numpy>=2.1,<2.3
+pandas==2.2.2
+requests==2.32.4
+langchain-community
+kaggle
+pyngrok
+python-dotenv
